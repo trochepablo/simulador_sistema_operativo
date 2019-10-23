@@ -1,0 +1,37 @@
+HARDWARE.cpu.pc = 0
+
+
+self.load_program(program)
+        log.logger.info("\n Executing program: {name}".format(name=program.name))
+        log.logger.info(HARDWARE)
+
+
+
+
+#TP 4
+
+Scheduler__________
+
+Algoritmos de planificacion de cpu 
+
+encargado  de manejar la ready  queue. 
+
+El orden en la que estaban los procesos. 
+
+Componente nuevo que contanga la ready ... 
+
+ * nadie puede acceder la ready 
+ * un protocolo  comun  para hablar con los scheduler (los 4 algoritmos)
+ *  Add (pcb) y  getNex()
+ 
+Algoritmos 
+
+FIFO
+
+Ruond Robin      dentro del timer hay que  programar el IRQ   setear el timmer   true   y  poner el quantumm 
+
+    
+Prioridad no expropiativo ____ no me guardo  los datos del PCB que esta  corriendo y solo lo pongo primero  si tiene prioridad mas alta
+
+
+Prioridad expropiativo ____ lo saco del cpu  y  me guardo el pc  lo pongo a ejecutar  inmediatamente
