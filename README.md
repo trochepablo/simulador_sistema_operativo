@@ -6,7 +6,6 @@
 
 | Nombre y Apellido  |      Mail                      |     usuario Gitlab   |
 | ----------------   | ------------------------------ | -------------------  |
-|Nicolas Tancredi    |tancredi.nikco@gmail.com        |nikcolastancredi      |
 |Pablo Troche        |trochepablodaniel@gmail.com     |trochepablo                      |
 
 
